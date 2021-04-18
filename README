@@ -1,3 +1,15 @@
+Added support for PlutoSDR for use with GNUradio 3.7
+
+git clone
+cd gr-osmosdr
+git checkout gr3.7
+mkdir build
+cd build
+cmake ../
+make
+sudo make install
+sudo ldconfig
+
 While primarily being developed for the OsmoSDR hardware, this block
 as well supports:
 
