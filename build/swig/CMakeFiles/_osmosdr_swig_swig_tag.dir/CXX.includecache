@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/gr-osmosdr/build/swig/_osmosdr_swig_swig_tag.cpp
+/home/pi/gr-iridium/build/gr-osmosdr/build/swig/_osmosdr_swig_swig_tag.cpp
 

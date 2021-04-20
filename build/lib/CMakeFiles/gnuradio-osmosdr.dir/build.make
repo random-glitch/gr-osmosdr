@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/gnuradio-osmosdr.dir/depend.make
@@ -59,198 +59,185 @@ include lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/source_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o -c /home/pi/gr-osmosdr/lib/source_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/source_impl.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/source_impl.cc > CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/source_impl.cc > CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/source_impl.cc -o CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/source_impl.cc -o CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o: ../lib/sink_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o -c /home/pi/gr-osmosdr/lib/sink_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/sink_impl.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/sink_impl.cc > CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/sink_impl.cc > CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/sink_impl.cc -o CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/sink_impl.cc -o CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o: ../lib/ranges.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o -c /home/pi/gr-osmosdr/lib/ranges.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/ranges.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/ranges.cc > CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/ranges.cc > CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/ranges.cc -o CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/ranges.cc -o CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/device.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/device.cc.o -c /home/pi/gr-osmosdr/lib/device.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/device.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/device.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/device.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/device.cc > CMakeFiles/gnuradio-osmosdr.dir/device.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/device.cc > CMakeFiles/gnuradio-osmosdr.dir/device.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/device.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/device.cc -o CMakeFiles/gnuradio-osmosdr.dir/device.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/device.cc -o CMakeFiles/gnuradio-osmosdr.dir/device.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o: ../lib/time_spec.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o -c /home/pi/gr-osmosdr/lib/time_spec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/time_spec.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/time_spec.cc > CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/time_spec.cc > CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/time_spec.cc -o CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s
-
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../lib/osmosdr/osmosdr_src_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o -c /home/pi/gr-osmosdr/lib/osmosdr/osmosdr_src_c.cc
-
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/osmosdr/osmosdr_src_c.cc > CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.i
-
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/osmosdr/osmosdr_src_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) -DHAVE_CLOCK_GETTIME $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/time_spec.cc -o CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o: ../lib/fcd/fcd_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o -c /home/pi/gr-osmosdr/lib/fcd/fcd_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/fcd/fcd_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/fcd/fcd_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/fcd/fcd_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/fcd/fcd_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/fcd/fcd_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: ../lib/file/file_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o -c /home/pi/gr-osmosdr/lib/file/file_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/file/file_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/file/file_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o: ../lib/file/file_sink_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o -c /home/pi/gr-osmosdr/lib/file/file_sink_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_sink_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/file/file_sink_c.cc > CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_sink_c.cc > CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/file/file_sink_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_sink_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o: ../lib/rtl_tcp/rtl_tcp_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o -c /home/pi/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o: ../lib/plutosdr/plutosdr_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o -c /home/pi/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o: ../lib/rfspace/rfspace_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o -c /home/pi/gr-osmosdr/lib/rfspace/rfspace_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/rfspace/rfspace_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/rfspace/rfspace_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/rfspace/rfspace_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/rfspace/rfspace_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/rfspace/rfspace_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o: ../lib/redpitaya/redpitaya_source_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o -c /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o: ../lib/redpitaya/redpitaya_sink_c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o -c /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o: lib/CMakeFiles/gnuradio-osmosdr.dir/flags.make
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o: ../lib/redpitaya/redpitaya_common.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o -c /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_common.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o -c /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_common.cc
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_common.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_common.cc > CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s"
-	cd /home/pi/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/lib/redpitaya/redpitaya_common.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_common.cc -o CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s
 
 # Object files for target gnuradio-osmosdr
 gnuradio__osmosdr_OBJECTS = \
@@ -259,7 +246,6 @@ gnuradio__osmosdr_OBJECTS = \
 "CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o" \
 "CMakeFiles/gnuradio-osmosdr.dir/device.cc.o" \
 "CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o" \
-"CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o" \
 "CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o" \
 "CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o" \
 "CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o" \
@@ -278,7 +264,6 @@ lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o
-lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o
@@ -298,15 +283,12 @@ lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-runti
 lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-pmt.so
 lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/liblog4cpp.so
 lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-blocks.so
-lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-iqbalance.so
-lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libosmosdr.so
 lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-fcd.so
-lib/libgnuradio-osmosdr.so.0.1.5: /usr/lib/arm-linux-gnueabihf/libgnuradio-fcdproplus.so
 lib/libgnuradio-osmosdr.so.0.1.5: /usr/local/lib/libgnuradio-iio.so
 lib/libgnuradio-osmosdr.so.0.1.5: lib/CMakeFiles/gnuradio-osmosdr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libgnuradio-osmosdr.so"
-	cd /home/pi/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-osmosdr.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/pi/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-osmosdr.so.0.1.5 libgnuradio-osmosdr.so.0.1.5 libgnuradio-osmosdr.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library libgnuradio-osmosdr.so"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-osmosdr.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-osmosdr.so.0.1.5 libgnuradio-osmosdr.so.0.1.5 libgnuradio-osmosdr.so
 
 lib/libgnuradio-osmosdr.so: lib/libgnuradio-osmosdr.so.0.1.5
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libgnuradio-osmosdr.so
@@ -317,10 +299,10 @@ lib/CMakeFiles/gnuradio-osmosdr.dir/build: lib/libgnuradio-osmosdr.so
 .PHONY : lib/CMakeFiles/gnuradio-osmosdr.dir/build
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/clean:
-	cd /home/pi/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-osmosdr.dir/cmake_clean.cmake
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-osmosdr.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/gnuradio-osmosdr.dir/clean
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr/lib /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/lib /home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/lib /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/lib /home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/gnuradio-osmosdr.dir/depend
 

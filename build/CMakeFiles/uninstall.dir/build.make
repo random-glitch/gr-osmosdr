@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/pi/gr-osmosdr/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/pi/gr-iridium/build/gr-osmosdr/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp" "/home/pi/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp" "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

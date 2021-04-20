@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles /home/pi/gr-osmosdr/build/swig/CMakeFiles/progress.marks
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles /home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/progress.marks
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/rule
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/rule
 .PHONY : swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ _osmosdr_swig_swig_tag: swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/rule
 
 # fast build rule for target.
 _osmosdr_swig_swig_tag/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build
 .PHONY : _osmosdr_swig_swig_tag/fast
 
 # Convenience name for target.
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/rule
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/rule
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ osmosdr_swig_swig_2d0df: swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/rule
 
 # fast build rule for target.
 osmosdr_swig_swig_2d0df/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build
 .PHONY : osmosdr_swig_swig_2d0df/fast
 
 # Convenience name for target.
 swig/CMakeFiles/osmosdr_swig_swig_doc.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/osmosdr_swig_swig_doc.dir/rule
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/osmosdr_swig_swig_doc.dir/rule
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_doc.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ osmosdr_swig_swig_doc: swig/CMakeFiles/osmosdr_swig_swig_doc.dir/rule
 
 # fast build rule for target.
 osmosdr_swig_swig_doc/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build
 .PHONY : osmosdr_swig_swig_doc/fast
 
 # Convenience name for target.
 swig/CMakeFiles/_osmosdr_swig.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_osmosdr_swig.dir/rule
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_osmosdr_swig.dir/rule
 .PHONY : swig/CMakeFiles/_osmosdr_swig.dir/rule
 
 # Convenience name for target.
@@ -224,23 +224,23 @@ _osmosdr_swig: swig/CMakeFiles/_osmosdr_swig.dir/rule
 
 # fast build rule for target.
 _osmosdr_swig/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/build
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/build
 .PHONY : _osmosdr_swig/fast
 
 # Convenience name for target.
-swig/CMakeFiles/pygen_swig_e0819.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_e0819.dir/rule
-.PHONY : swig/CMakeFiles/pygen_swig_e0819.dir/rule
+swig/CMakeFiles/pygen_swig_5f7e3.dir/rule:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_5f7e3.dir/rule
+.PHONY : swig/CMakeFiles/pygen_swig_5f7e3.dir/rule
 
 # Convenience name for target.
-pygen_swig_e0819: swig/CMakeFiles/pygen_swig_e0819.dir/rule
+pygen_swig_5f7e3: swig/CMakeFiles/pygen_swig_5f7e3.dir/rule
 
-.PHONY : pygen_swig_e0819
+.PHONY : pygen_swig_5f7e3
 
 # fast build rule for target.
-pygen_swig_e0819/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_e0819.dir/build.make swig/CMakeFiles/pygen_swig_e0819.dir/build
-.PHONY : pygen_swig_e0819/fast
+pygen_swig_5f7e3/fast:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_5f7e3.dir/build.make swig/CMakeFiles/pygen_swig_5f7e3.dir/build
+.PHONY : pygen_swig_5f7e3/fast
 
 _osmosdr_swig_swig_tag.o: _osmosdr_swig_swig_tag.cpp.o
 
@@ -248,7 +248,7 @@ _osmosdr_swig_swig_tag.o: _osmosdr_swig_swig_tag.cpp.o
 
 # target to build an object file
 _osmosdr_swig_swig_tag.cpp.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.o
 .PHONY : _osmosdr_swig_swig_tag.cpp.o
 
 _osmosdr_swig_swig_tag.i: _osmosdr_swig_swig_tag.cpp.i
@@ -257,7 +257,7 @@ _osmosdr_swig_swig_tag.i: _osmosdr_swig_swig_tag.cpp.i
 
 # target to preprocess a source file
 _osmosdr_swig_swig_tag.cpp.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.i
 .PHONY : _osmosdr_swig_swig_tag.cpp.i
 
 _osmosdr_swig_swig_tag.s: _osmosdr_swig_swig_tag.cpp.s
@@ -266,7 +266,7 @@ _osmosdr_swig_swig_tag.s: _osmosdr_swig_swig_tag.cpp.s
 
 # target to generate assembly for a file
 _osmosdr_swig_swig_tag.cpp.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/build.make swig/CMakeFiles/_osmosdr_swig_swig_tag.dir/_osmosdr_swig_swig_tag.cpp.s
 .PHONY : _osmosdr_swig_swig_tag.cpp.s
 
 osmosdr_swigPYTHON_wrap.o: osmosdr_swigPYTHON_wrap.cxx.o
@@ -275,7 +275,7 @@ osmosdr_swigPYTHON_wrap.o: osmosdr_swigPYTHON_wrap.cxx.o
 
 # target to build an object file
 osmosdr_swigPYTHON_wrap.cxx.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o
 .PHONY : osmosdr_swigPYTHON_wrap.cxx.o
 
 osmosdr_swigPYTHON_wrap.i: osmosdr_swigPYTHON_wrap.cxx.i
@@ -284,7 +284,7 @@ osmosdr_swigPYTHON_wrap.i: osmosdr_swigPYTHON_wrap.cxx.i
 
 # target to preprocess a source file
 osmosdr_swigPYTHON_wrap.cxx.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i
 .PHONY : osmosdr_swigPYTHON_wrap.cxx.i
 
 osmosdr_swigPYTHON_wrap.s: osmosdr_swigPYTHON_wrap.cxx.s
@@ -293,7 +293,7 @@ osmosdr_swigPYTHON_wrap.s: osmosdr_swigPYTHON_wrap.cxx.s
 
 # target to generate assembly for a file
 osmosdr_swigPYTHON_wrap.cxx.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/_osmosdr_swig.dir/build.make swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s
 .PHONY : osmosdr_swigPYTHON_wrap.cxx.s
 
 osmosdr_swig_swig_2d0df.o: osmosdr_swig_swig_2d0df.cpp.o
@@ -302,7 +302,7 @@ osmosdr_swig_swig_2d0df.o: osmosdr_swig_swig_2d0df.cpp.o
 
 # target to build an object file
 osmosdr_swig_swig_2d0df.cpp.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o
 .PHONY : osmosdr_swig_swig_2d0df.cpp.o
 
 osmosdr_swig_swig_2d0df.i: osmosdr_swig_swig_2d0df.cpp.i
@@ -311,7 +311,7 @@ osmosdr_swig_swig_2d0df.i: osmosdr_swig_swig_2d0df.cpp.i
 
 # target to preprocess a source file
 osmosdr_swig_swig_2d0df.cpp.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i
 .PHONY : osmosdr_swig_swig_2d0df.cpp.i
 
 osmosdr_swig_swig_2d0df.s: osmosdr_swig_swig_2d0df.cpp.s
@@ -320,7 +320,7 @@ osmosdr_swig_swig_2d0df.s: osmosdr_swig_swig_2d0df.cpp.s
 
 # target to generate assembly for a file
 osmosdr_swig_swig_2d0df.cpp.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s
 .PHONY : osmosdr_swig_swig_2d0df.cpp.s
 
 # Help Target
@@ -340,7 +340,7 @@ help:
 	@echo "... test"
 	@echo "... osmosdr_swig_swig_doc"
 	@echo "... _osmosdr_swig"
-	@echo "... pygen_swig_e0819"
+	@echo "... pygen_swig_5f7e3"
 	@echo "... _osmosdr_swig_swig_tag.o"
 	@echo "... _osmosdr_swig_swig_tag.i"
 	@echo "... _osmosdr_swig_swig_tag.s"
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

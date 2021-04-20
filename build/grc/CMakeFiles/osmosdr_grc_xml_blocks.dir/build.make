@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Utility rule file for osmosdr_grc_xml_blocks.
 
@@ -59,16 +59,16 @@ grc/CMakeFiles/osmosdr_grc_xml_blocks: grc/osmosdr_sink.xml
 
 
 grc/rtlsdr_source.xml: ../grc/gen_osmosdr_blocks.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating rtlsdr_source.xml"
-	cd /home/pi/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-osmosdr/build/grc/rtlsdr_source.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating rtlsdr_source.xml"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-iridium/build/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-iridium/build/gr-osmosdr/build/grc/rtlsdr_source.xml
 
 grc/osmosdr_source.xml: ../grc/gen_osmosdr_blocks.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating osmosdr_source.xml"
-	cd /home/pi/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-osmosdr/build/grc/osmosdr_source.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating osmosdr_source.xml"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-iridium/build/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-iridium/build/gr-osmosdr/build/grc/osmosdr_source.xml
 
 grc/osmosdr_sink.xml: ../grc/gen_osmosdr_blocks.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating osmosdr_sink.xml"
-	cd /home/pi/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-osmosdr/build/grc/osmosdr_sink.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating osmosdr_sink.xml"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/grc && /usr/bin/python2 /home/pi/gr-iridium/build/gr-osmosdr/grc/gen_osmosdr_blocks.py /home/pi/gr-iridium/build/gr-osmosdr/build/grc/osmosdr_sink.xml
 
 osmosdr_grc_xml_blocks: grc/CMakeFiles/osmosdr_grc_xml_blocks
 osmosdr_grc_xml_blocks: grc/rtlsdr_source.xml
@@ -84,10 +84,10 @@ grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/build: osmosdr_grc_xml_blocks
 .PHONY : grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/build
 
 grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/clean:
-	cd /home/pi/gr-osmosdr/build/grc && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_grc_xml_blocks.dir/cmake_clean.cmake
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/grc && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_grc_xml_blocks.dir/cmake_clean.cmake
 .PHONY : grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/clean
 
 grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr/grc /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/grc /home/pi/gr-osmosdr/build/grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/grc /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/grc /home/pi/gr-iridium/build/gr-osmosdr/build/grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grc/CMakeFiles/osmosdr_grc_xml_blocks.dir/depend
 

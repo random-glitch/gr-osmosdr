@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-parameter -Wsign-compare -fvisibility=hidden -fvisibility-inlines-hidden
 
-CXX_DEFINES = -DBOOST_ALL_DYN_LINK -DHAVE_CONFIG_H=1 -DHAVE_FCD=1 -DHAVE_FCDPP=1 -DHAVE_IQBALANCE=1 -Dgnuradio_osmosdr_EXPORTS
+CXX_DEFINES = -DBOOST_ALL_DYN_LINK -DHAVE_CONFIG_H=1 -DHAVE_FCD=1 -Dgnuradio_osmosdr_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/gr-osmosdr/build/lib -I/home/pi/gr-osmosdr/include -I/home/pi/gr-osmosdr/lib -I/home/pi/gr-osmosdr/lib/osmosdr -I/home/pi/gr-osmosdr/lib/fcd -I/home/pi/gr-osmosdr/lib/file -I/home/pi/gr-osmosdr/lib/rtl_tcp -I/home/pi/gr-osmosdr/lib/plutosdr -I/home/pi/gr-osmosdr/lib/rfspace -I/home/pi/gr-osmosdr/lib/redpitaya 
+CXX_INCLUDES = -I/home/pi/gr-iridium/build/gr-osmosdr/build/lib -I/home/pi/gr-iridium/build/gr-osmosdr/include -I/home/pi/gr-iridium/build/gr-osmosdr/lib -I/home/pi/gr-iridium/build/gr-osmosdr/lib/fcd -I/home/pi/gr-iridium/build/gr-osmosdr/lib/file -I/home/pi/gr-iridium/build/gr-osmosdr/lib/rtl_tcp -I/home/pi/gr-iridium/build/gr-osmosdr/lib/plutosdr -I/home/pi/gr-iridium/build/gr-osmosdr/lib/rfspace -I/home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya 
 
 # Custom defines: lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o_DEFINES = HAVE_CLOCK_GETTIME
 

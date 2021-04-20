@@ -4,7 +4,7 @@
 #define GR_OSMOSDR_VERSION "0.1.5"
 #define GR_OSMOSDR_LIBVER "0.1.5"
 
-#define ENABLE_OSMOSDR
+/* #undef ENABLE_OSMOSDR */
 #define ENABLE_FCD
 #define ENABLE_FILE
 /* #undef ENABLE_RTL */

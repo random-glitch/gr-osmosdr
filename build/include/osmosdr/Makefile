@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles /home/pi/gr-osmosdr/build/include/osmosdr/CMakeFiles/progress.marks
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles /home/pi/gr-iridium/build/gr-osmosdr/build/include/osmosdr/CMakeFiles/progress.marks
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/clean
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 include/osmosdr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

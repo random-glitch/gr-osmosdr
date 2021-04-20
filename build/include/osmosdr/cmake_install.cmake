@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/include/osmosdr
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/osmosdr" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/include/osmosdr/api.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/pimpl.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/ranges.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/time_spec.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/device.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/source.h"
-    "/home/pi/gr-osmosdr/include/osmosdr/sink.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/api.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/pimpl.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/ranges.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/time_spec.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/device.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/source.h"
+    "/home/pi/gr-iridium/build/gr-osmosdr/include/osmosdr/sink.h"
     )
 endif()
 

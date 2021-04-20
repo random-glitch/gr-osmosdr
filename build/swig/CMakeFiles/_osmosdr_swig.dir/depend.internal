@@ -9,7 +9,7 @@ swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o
  ../include/osmosdr/sink.h
  ../include/osmosdr/source.h
  ../include/osmosdr/time_spec.h
- /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
+ /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
  /usr/include/gnuradio/swig/gnuradio_swig_bug_workaround.h
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h

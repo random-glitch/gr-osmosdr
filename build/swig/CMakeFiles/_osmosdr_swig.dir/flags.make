@@ -6,7 +6,7 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-parameter -Wsign-comp
 
 CXX_DEFINES = -DBOOST_ALL_DYN_LINK -D_osmosdr_swig_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/gr-osmosdr/include -I/home/pi/gr-osmosdr/lib -I/home/pi/gr-osmosdr/build/swig -I/home/pi/gr-osmosdr/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 
+CXX_INCLUDES = -I/home/pi/gr-iridium/build/gr-osmosdr/include -I/home/pi/gr-iridium/build/gr-osmosdr/lib -I/home/pi/gr-iridium/build/gr-osmosdr/build/swig -I/home/pi/gr-iridium/build/gr-osmosdr/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 
 
 # Custom flags: swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o_FLAGS = -Wno-unused-but-set-variable
 

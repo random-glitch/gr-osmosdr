@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/pi/gr-osmosdr
-# Build directory: /home/pi/gr-osmosdr/build
+# Source directory: /home/pi/gr-iridium/build/gr-osmosdr
+# Build directory: /home/pi/gr-iridium/build/gr-osmosdr/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

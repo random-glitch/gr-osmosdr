@@ -8,7 +8,6 @@ lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../include/osmosdr/ranges.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../include/osmosdr/time_spec.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/fcd/fcd_source_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/file/file_source_c.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/osmosdr/osmosdr_src_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/plutosdr/plutosdr_source_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/redpitaya/redpitaya_common.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o: ../lib/redpitaya/redpitaya_source_c.h
@@ -45,16 +44,6 @@ lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: ../lib/arg_helpers.
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: ../lib/source_iface.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: ../lib/file/file_source_c.cc
 lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o: ../lib/file/file_source_c.h
-
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../include/osmosdr/api.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../include/osmosdr/pimpl.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../include/osmosdr/ranges.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../include/osmosdr/time_spec.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../lib/arg_helpers.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../lib/source_iface.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../lib/osmosdr/osmosdr_src_c.cc
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: ../lib/osmosdr/osmosdr_src_c.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o: lib/config.h
 
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o: ../include/osmosdr/api.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o: ../include/osmosdr/pimpl.h
@@ -134,7 +123,6 @@ lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../include/osmosdr/source.
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../include/osmosdr/time_spec.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/fcd/fcd_source_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/file/file_source_c.h
-lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/osmosdr/osmosdr_src_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/plutosdr/plutosdr_source_c.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/redpitaya/redpitaya_common.h
 lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o: ../lib/redpitaya/redpitaya_source_c.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/docs
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

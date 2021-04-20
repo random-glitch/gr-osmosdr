@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles /home/pi/gr-osmosdr/build/apps/CMakeFiles/progress.marks
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles /home/pi/gr-iridium/build/gr-osmosdr/build/apps/CMakeFiles/progress.marks
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/clean
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,48 +154,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-apps/CMakeFiles/pygen_apps_3144a.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_3144a.dir/rule
-.PHONY : apps/CMakeFiles/pygen_apps_3144a.dir/rule
+apps/CMakeFiles/pygen_apps_06b28.dir/rule:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_06b28.dir/rule
+.PHONY : apps/CMakeFiles/pygen_apps_06b28.dir/rule
 
 # Convenience name for target.
-pygen_apps_3144a: apps/CMakeFiles/pygen_apps_3144a.dir/rule
+pygen_apps_06b28: apps/CMakeFiles/pygen_apps_06b28.dir/rule
 
-.PHONY : pygen_apps_3144a
+.PHONY : pygen_apps_06b28
 
 # fast build rule for target.
-pygen_apps_3144a/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_3144a.dir/build.make apps/CMakeFiles/pygen_apps_3144a.dir/build
-.PHONY : pygen_apps_3144a/fast
+pygen_apps_06b28/fast:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_06b28.dir/build.make apps/CMakeFiles/pygen_apps_06b28.dir/build
+.PHONY : pygen_apps_06b28/fast
 
 # Convenience name for target.
-apps/CMakeFiles/pygen_apps_4c873.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_4c873.dir/rule
-.PHONY : apps/CMakeFiles/pygen_apps_4c873.dir/rule
+apps/CMakeFiles/pygen_apps_8435c.dir/rule:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 apps/CMakeFiles/pygen_apps_8435c.dir/rule
+.PHONY : apps/CMakeFiles/pygen_apps_8435c.dir/rule
 
 # Convenience name for target.
-pygen_apps_4c873: apps/CMakeFiles/pygen_apps_4c873.dir/rule
+pygen_apps_8435c: apps/CMakeFiles/pygen_apps_8435c.dir/rule
 
-.PHONY : pygen_apps_4c873
+.PHONY : pygen_apps_8435c
 
 # fast build rule for target.
-pygen_apps_4c873/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_4c873.dir/build.make apps/CMakeFiles/pygen_apps_4c873.dir/build
-.PHONY : pygen_apps_4c873/fast
+pygen_apps_8435c/fast:
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f apps/CMakeFiles/pygen_apps_8435c.dir/build.make apps/CMakeFiles/pygen_apps_8435c.dir/build
+.PHONY : pygen_apps_8435c/fast
 
 # Help Target
 help:
@@ -204,9 +204,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... pygen_apps_06b28"
 	@echo "... install"
-	@echo "... pygen_apps_3144a"
-	@echo "... pygen_apps_4c873"
+	@echo "... pygen_apps_8435c"
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... edit_cache"
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

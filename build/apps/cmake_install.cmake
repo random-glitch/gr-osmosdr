@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/apps
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-osmosdr/apps/osmocom_siggen_base.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-iridium/build/gr-osmosdr/apps/osmocom_siggen_base.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/build/apps/osmocom_siggen_base.pyc"
-    "/home/pi/gr-osmosdr/build/apps/osmocom_siggen_base.pyo"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_siggen_base.pyc"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_siggen_base.pyo"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_fft" FILES "/home/pi/gr-osmosdr/build/apps/osmocom_fft.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_fft" FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_fft.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_siggen" FILES "/home/pi/gr-osmosdr/build/apps/osmocom_siggen.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_siggen" FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_siggen.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_siggen_nogui" FILES "/home/pi/gr-osmosdr/build/apps/osmocom_siggen_nogui.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_siggen_nogui" FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_siggen_nogui.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_spectrum_sense" FILES "/home/pi/gr-osmosdr/build/apps/osmocom_spectrum_sense.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM RENAME "osmocom_spectrum_sense" FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/apps/osmocom_spectrum_sense.exe")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/python
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-osmosdr/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-iridium/build/gr-osmosdr/python/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/build/python/__init__.pyc"
-    "/home/pi/gr-osmosdr/build/python/__init__.pyo"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/python/__init__.pyc"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/python/__init__.pyo"
     )
 endif()
 

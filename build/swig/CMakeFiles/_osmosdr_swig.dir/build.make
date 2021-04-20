@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/_osmosdr_swig.dir/depend.make
@@ -58,25 +58,25 @@ include swig/CMakeFiles/_osmosdr_swig.dir/progress.make
 include swig/CMakeFiles/_osmosdr_swig.dir/flags.make
 
 swig/osmosdr_swigPYTHON_wrap.cxx: swig/osmosdr_swig_swig_2d0df
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "dummy command to show osmosdr_swig_swig_2d0df dependency of /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/cmake -E touch_nocreate /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "dummy command to show osmosdr_swig_swig_2d0df dependency of /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/cmake -E touch_nocreate /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
 
 swig/osmosdr_swig.py: swig/osmosdr_swig_swig_2d0df
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "dummy command to show osmosdr_swig_swig_2d0df dependency of /home/pi/gr-osmosdr/build/swig/osmosdr_swig.py"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/cmake -E touch_nocreate /home/pi/gr-osmosdr/build/swig/osmosdr_swig.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "dummy command to show osmosdr_swig_swig_2d0df dependency of /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.py"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/cmake -E touch_nocreate /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.py
 
 swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o: swig/CMakeFiles/_osmosdr_swig.dir/flags.make
 swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o: swig/osmosdr_swigPYTHON_wrap.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -o CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o -c /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -o CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o -c /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx
 
 swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -E /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx > CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -E /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx > CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.i
 
 swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -S /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx -o CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-unused-but-set-variable -S /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx -o CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.s
 
 # Object files for target _osmosdr_swig
 _osmosdr_swig_OBJECTS = \
@@ -98,14 +98,11 @@ swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-runtime.so
 swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-pmt.so
 swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/liblog4cpp.so
 swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-blocks.so
-swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-iqbalance.so
-swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libosmosdr.so
 swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-fcd.so
-swig/_osmosdr_swig.so: /usr/lib/arm-linux-gnueabihf/libgnuradio-fcdproplus.so
 swig/_osmosdr_swig.so: /usr/local/lib/libgnuradio-iio.so
 swig/_osmosdr_swig.so: swig/CMakeFiles/_osmosdr_swig.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module _osmosdr_swig.so"
-	cd /home/pi/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_osmosdr_swig.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module _osmosdr_swig.so"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_osmosdr_swig.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/_osmosdr_swig.dir/build: swig/_osmosdr_swig.so
@@ -113,11 +110,11 @@ swig/CMakeFiles/_osmosdr_swig.dir/build: swig/_osmosdr_swig.so
 .PHONY : swig/CMakeFiles/_osmosdr_swig.dir/build
 
 swig/CMakeFiles/_osmosdr_swig.dir/clean:
-	cd /home/pi/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_osmosdr_swig.dir/cmake_clean.cmake
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_osmosdr_swig.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/_osmosdr_swig.dir/clean
 
 swig/CMakeFiles/_osmosdr_swig.dir/depend: swig/osmosdr_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_osmosdr_swig.dir/depend: swig/osmosdr_swig.py
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr/swig /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/swig /home/pi/gr-osmosdr/build/swig/CMakeFiles/_osmosdr_swig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/swig /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/swig /home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/_osmosdr_swig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_osmosdr_swig.dir/depend
 

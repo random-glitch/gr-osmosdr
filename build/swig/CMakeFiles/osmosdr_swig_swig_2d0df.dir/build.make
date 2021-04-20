@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/depend.make
@@ -60,7 +60,6 @@ include swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/flags.make
 swig/osmosdr_swig_swig_2d0df.cpp: ../swig/osmosdr_swig.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/gr_swig_block_magic.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/gr_logger.i
-swig/osmosdr_swig_swig_2d0df.cpp: swig/osmosdr_swig_doc.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_gateway.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/tags.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/top_block.i
@@ -89,26 +88,27 @@ swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/runtime_swig.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/tagged_stream_block.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/realtime.i
 swig/osmosdr_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_detail.i
+swig/osmosdr_swig_swig_2d0df.cpp: swig/osmosdr_swig_doc.i
 swig/osmosdr_swig_swig_2d0df.cpp: swig/osmosdr_swig.tag
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/cmake -E copy /home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp.in /home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/cmake -E copy /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp.in /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp
 
 swig/osmosdr_swig.tag: swig/_osmosdr_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating osmosdr_swig.tag"
-	cd /home/pi/gr-osmosdr/build/swig && ./_osmosdr_swig_swig_tag
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/cmake -E touch /home/pi/gr-osmosdr/build/swig/osmosdr_swig.tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating osmosdr_swig.tag"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && ./_osmosdr_swig_swig_tag
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/cmake -E touch /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.tag
 
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o: swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o: swig/osmosdr_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o -c /home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o -c /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp > CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp > CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.i
 
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp -o CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_swig_2d0df.cpp -o CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.s
 
 # Object files for target osmosdr_swig_swig_2d0df
 osmosdr_swig_swig_2d0df_OBJECTS = \
@@ -120,11 +120,11 @@ osmosdr_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/osmosdr_swig_swig_2d0df: swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/osmosdr_swig_swig_2d0df.cpp.o
 swig/osmosdr_swig_swig_2d0df: swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build.make
 swig/osmosdr_swig_swig_2d0df: swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable osmosdr_swig_swig_2d0df"
-	cd /home/pi/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osmosdr_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable osmosdr_swig_swig_2d0df"
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osmosdr_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/cmake -E make_directory /home/pi/gr-osmosdr/build/swig
-	cd /home/pi/gr-osmosdr/build/swig && /usr/bin/swig3.0 -python -fvirtual -modern -keyword -w511 -w314 -module osmosdr_swig -outdir /home/pi/gr-osmosdr/build/swig -c++ -I/home/pi/gr-osmosdr/include -I/home/pi/gr-osmosdr/lib -I/usr/include -I/home/pi/gr-osmosdr/build/swig -I/home/pi/gr-osmosdr/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 -o /home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx /home/pi/gr-osmosdr/swig/osmosdr_swig.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/cmake -E make_directory /home/pi/gr-iridium/build/gr-osmosdr/build/swig
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && /usr/bin/swig3.0 -python -fvirtual -modern -keyword -w511 -w314 -module osmosdr_swig -outdir /home/pi/gr-iridium/build/gr-osmosdr/build/swig -c++ -I/home/pi/gr-iridium/build/gr-osmosdr/include -I/home/pi/gr-iridium/build/gr-osmosdr/lib -I/usr/include -I/home/pi/gr-iridium/build/gr-osmosdr/build/swig -I/home/pi/gr-iridium/build/gr-osmosdr/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 -o /home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx /home/pi/gr-iridium/build/gr-osmosdr/swig/osmosdr_swig.i
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build: swig/osmosdr_swig_swig_2d0df
@@ -132,11 +132,11 @@ swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build: swig/osmosdr_swig_swig_2d0df
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/build
 
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/clean:
-	cd /home/pi/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_swig_swig_2d0df.dir/cmake_clean.cmake
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_swig_swig_2d0df.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/depend: swig/osmosdr_swig_swig_2d0df.cpp
 swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/depend: swig/osmosdr_swig.tag
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr/swig /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/swig /home/pi/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/swig /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/swig /home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_2d0df.dir/depend
 

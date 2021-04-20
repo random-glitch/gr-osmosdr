@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx" "/home/pi/gr-osmosdr/build/swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swigPYTHON_wrap.cxx" "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/_osmosdr_swig.dir/osmosdr_swigPYTHON_wrap.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,7 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/DependInfo.cmake"
+  "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles /home/pi/gr-osmosdr/build/lib/CMakeFiles/progress.marks
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles /home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/progress.marks
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-osmosdr.dir/rule:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-osmosdr.dir/rule
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-osmosdr.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-osmosdr.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ gnuradio-osmosdr: lib/CMakeFiles/gnuradio-osmosdr.dir/rule
 
 # fast build rule for target.
 gnuradio-osmosdr/fast:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/build
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/build
 .PHONY : gnuradio-osmosdr/fast
 
 device.o: device.cc.o
@@ -188,7 +188,7 @@ device.o: device.cc.o
 
 # target to build an object file
 device.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o
 .PHONY : device.cc.o
 
 device.i: device.cc.i
@@ -197,7 +197,7 @@ device.i: device.cc.i
 
 # target to preprocess a source file
 device.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.i
 .PHONY : device.cc.i
 
 device.s: device.cc.s
@@ -206,7 +206,7 @@ device.s: device.cc.s
 
 # target to generate assembly for a file
 device.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.s
 .PHONY : device.cc.s
 
 fcd/fcd_source_c.o: fcd/fcd_source_c.cc.o
@@ -215,7 +215,7 @@ fcd/fcd_source_c.o: fcd/fcd_source_c.cc.o
 
 # target to build an object file
 fcd/fcd_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o
 .PHONY : fcd/fcd_source_c.cc.o
 
 fcd/fcd_source_c.i: fcd/fcd_source_c.cc.i
@@ -224,7 +224,7 @@ fcd/fcd_source_c.i: fcd/fcd_source_c.cc.i
 
 # target to preprocess a source file
 fcd/fcd_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.i
 .PHONY : fcd/fcd_source_c.cc.i
 
 fcd/fcd_source_c.s: fcd/fcd_source_c.cc.s
@@ -233,7 +233,7 @@ fcd/fcd_source_c.s: fcd/fcd_source_c.cc.s
 
 # target to generate assembly for a file
 fcd/fcd_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.s
 .PHONY : fcd/fcd_source_c.cc.s
 
 file/file_sink_c.o: file/file_sink_c.cc.o
@@ -242,7 +242,7 @@ file/file_sink_c.o: file/file_sink_c.cc.o
 
 # target to build an object file
 file/file_sink_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o
 .PHONY : file/file_sink_c.cc.o
 
 file/file_sink_c.i: file/file_sink_c.cc.i
@@ -251,7 +251,7 @@ file/file_sink_c.i: file/file_sink_c.cc.i
 
 # target to preprocess a source file
 file/file_sink_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.i
 .PHONY : file/file_sink_c.cc.i
 
 file/file_sink_c.s: file/file_sink_c.cc.s
@@ -260,7 +260,7 @@ file/file_sink_c.s: file/file_sink_c.cc.s
 
 # target to generate assembly for a file
 file/file_sink_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.s
 .PHONY : file/file_sink_c.cc.s
 
 file/file_source_c.o: file/file_source_c.cc.o
@@ -269,7 +269,7 @@ file/file_source_c.o: file/file_source_c.cc.o
 
 # target to build an object file
 file/file_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o
 .PHONY : file/file_source_c.cc.o
 
 file/file_source_c.i: file/file_source_c.cc.i
@@ -278,7 +278,7 @@ file/file_source_c.i: file/file_source_c.cc.i
 
 # target to preprocess a source file
 file/file_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.i
 .PHONY : file/file_source_c.cc.i
 
 file/file_source_c.s: file/file_source_c.cc.s
@@ -287,35 +287,8 @@ file/file_source_c.s: file/file_source_c.cc.s
 
 # target to generate assembly for a file
 file/file_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.s
 .PHONY : file/file_source_c.cc.s
-
-osmosdr/osmosdr_src_c.o: osmosdr/osmosdr_src_c.cc.o
-
-.PHONY : osmosdr/osmosdr_src_c.o
-
-# target to build an object file
-osmosdr/osmosdr_src_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o
-.PHONY : osmosdr/osmosdr_src_c.cc.o
-
-osmosdr/osmosdr_src_c.i: osmosdr/osmosdr_src_c.cc.i
-
-.PHONY : osmosdr/osmosdr_src_c.i
-
-# target to preprocess a source file
-osmosdr/osmosdr_src_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.i
-.PHONY : osmosdr/osmosdr_src_c.cc.i
-
-osmosdr/osmosdr_src_c.s: osmosdr/osmosdr_src_c.cc.s
-
-.PHONY : osmosdr/osmosdr_src_c.s
-
-# target to generate assembly for a file
-osmosdr/osmosdr_src_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.s
-.PHONY : osmosdr/osmosdr_src_c.cc.s
 
 plutosdr/plutosdr_source_c.o: plutosdr/plutosdr_source_c.cc.o
 
@@ -323,7 +296,7 @@ plutosdr/plutosdr_source_c.o: plutosdr/plutosdr_source_c.cc.o
 
 # target to build an object file
 plutosdr/plutosdr_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o
 .PHONY : plutosdr/plutosdr_source_c.cc.o
 
 plutosdr/plutosdr_source_c.i: plutosdr/plutosdr_source_c.cc.i
@@ -332,7 +305,7 @@ plutosdr/plutosdr_source_c.i: plutosdr/plutosdr_source_c.cc.i
 
 # target to preprocess a source file
 plutosdr/plutosdr_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.i
 .PHONY : plutosdr/plutosdr_source_c.cc.i
 
 plutosdr/plutosdr_source_c.s: plutosdr/plutosdr_source_c.cc.s
@@ -341,7 +314,7 @@ plutosdr/plutosdr_source_c.s: plutosdr/plutosdr_source_c.cc.s
 
 # target to generate assembly for a file
 plutosdr/plutosdr_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.s
 .PHONY : plutosdr/plutosdr_source_c.cc.s
 
 ranges.o: ranges.cc.o
@@ -350,7 +323,7 @@ ranges.o: ranges.cc.o
 
 # target to build an object file
 ranges.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o
 .PHONY : ranges.cc.o
 
 ranges.i: ranges.cc.i
@@ -359,7 +332,7 @@ ranges.i: ranges.cc.i
 
 # target to preprocess a source file
 ranges.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.i
 .PHONY : ranges.cc.i
 
 ranges.s: ranges.cc.s
@@ -368,7 +341,7 @@ ranges.s: ranges.cc.s
 
 # target to generate assembly for a file
 ranges.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.s
 .PHONY : ranges.cc.s
 
 redpitaya/redpitaya_common.o: redpitaya/redpitaya_common.cc.o
@@ -377,7 +350,7 @@ redpitaya/redpitaya_common.o: redpitaya/redpitaya_common.cc.o
 
 # target to build an object file
 redpitaya/redpitaya_common.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o
 .PHONY : redpitaya/redpitaya_common.cc.o
 
 redpitaya/redpitaya_common.i: redpitaya/redpitaya_common.cc.i
@@ -386,7 +359,7 @@ redpitaya/redpitaya_common.i: redpitaya/redpitaya_common.cc.i
 
 # target to preprocess a source file
 redpitaya/redpitaya_common.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.i
 .PHONY : redpitaya/redpitaya_common.cc.i
 
 redpitaya/redpitaya_common.s: redpitaya/redpitaya_common.cc.s
@@ -395,7 +368,7 @@ redpitaya/redpitaya_common.s: redpitaya/redpitaya_common.cc.s
 
 # target to generate assembly for a file
 redpitaya/redpitaya_common.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.s
 .PHONY : redpitaya/redpitaya_common.cc.s
 
 redpitaya/redpitaya_sink_c.o: redpitaya/redpitaya_sink_c.cc.o
@@ -404,7 +377,7 @@ redpitaya/redpitaya_sink_c.o: redpitaya/redpitaya_sink_c.cc.o
 
 # target to build an object file
 redpitaya/redpitaya_sink_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o
 .PHONY : redpitaya/redpitaya_sink_c.cc.o
 
 redpitaya/redpitaya_sink_c.i: redpitaya/redpitaya_sink_c.cc.i
@@ -413,7 +386,7 @@ redpitaya/redpitaya_sink_c.i: redpitaya/redpitaya_sink_c.cc.i
 
 # target to preprocess a source file
 redpitaya/redpitaya_sink_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.i
 .PHONY : redpitaya/redpitaya_sink_c.cc.i
 
 redpitaya/redpitaya_sink_c.s: redpitaya/redpitaya_sink_c.cc.s
@@ -422,7 +395,7 @@ redpitaya/redpitaya_sink_c.s: redpitaya/redpitaya_sink_c.cc.s
 
 # target to generate assembly for a file
 redpitaya/redpitaya_sink_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.s
 .PHONY : redpitaya/redpitaya_sink_c.cc.s
 
 redpitaya/redpitaya_source_c.o: redpitaya/redpitaya_source_c.cc.o
@@ -431,7 +404,7 @@ redpitaya/redpitaya_source_c.o: redpitaya/redpitaya_source_c.cc.o
 
 # target to build an object file
 redpitaya/redpitaya_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o
 .PHONY : redpitaya/redpitaya_source_c.cc.o
 
 redpitaya/redpitaya_source_c.i: redpitaya/redpitaya_source_c.cc.i
@@ -440,7 +413,7 @@ redpitaya/redpitaya_source_c.i: redpitaya/redpitaya_source_c.cc.i
 
 # target to preprocess a source file
 redpitaya/redpitaya_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.i
 .PHONY : redpitaya/redpitaya_source_c.cc.i
 
 redpitaya/redpitaya_source_c.s: redpitaya/redpitaya_source_c.cc.s
@@ -449,7 +422,7 @@ redpitaya/redpitaya_source_c.s: redpitaya/redpitaya_source_c.cc.s
 
 # target to generate assembly for a file
 redpitaya/redpitaya_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.s
 .PHONY : redpitaya/redpitaya_source_c.cc.s
 
 rfspace/rfspace_source_c.o: rfspace/rfspace_source_c.cc.o
@@ -458,7 +431,7 @@ rfspace/rfspace_source_c.o: rfspace/rfspace_source_c.cc.o
 
 # target to build an object file
 rfspace/rfspace_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o
 .PHONY : rfspace/rfspace_source_c.cc.o
 
 rfspace/rfspace_source_c.i: rfspace/rfspace_source_c.cc.i
@@ -467,7 +440,7 @@ rfspace/rfspace_source_c.i: rfspace/rfspace_source_c.cc.i
 
 # target to preprocess a source file
 rfspace/rfspace_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.i
 .PHONY : rfspace/rfspace_source_c.cc.i
 
 rfspace/rfspace_source_c.s: rfspace/rfspace_source_c.cc.s
@@ -476,7 +449,7 @@ rfspace/rfspace_source_c.s: rfspace/rfspace_source_c.cc.s
 
 # target to generate assembly for a file
 rfspace/rfspace_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.s
 .PHONY : rfspace/rfspace_source_c.cc.s
 
 rtl_tcp/rtl_tcp_source_c.o: rtl_tcp/rtl_tcp_source_c.cc.o
@@ -485,7 +458,7 @@ rtl_tcp/rtl_tcp_source_c.o: rtl_tcp/rtl_tcp_source_c.cc.o
 
 # target to build an object file
 rtl_tcp/rtl_tcp_source_c.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o
 .PHONY : rtl_tcp/rtl_tcp_source_c.cc.o
 
 rtl_tcp/rtl_tcp_source_c.i: rtl_tcp/rtl_tcp_source_c.cc.i
@@ -494,7 +467,7 @@ rtl_tcp/rtl_tcp_source_c.i: rtl_tcp/rtl_tcp_source_c.cc.i
 
 # target to preprocess a source file
 rtl_tcp/rtl_tcp_source_c.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.i
 .PHONY : rtl_tcp/rtl_tcp_source_c.cc.i
 
 rtl_tcp/rtl_tcp_source_c.s: rtl_tcp/rtl_tcp_source_c.cc.s
@@ -503,7 +476,7 @@ rtl_tcp/rtl_tcp_source_c.s: rtl_tcp/rtl_tcp_source_c.cc.s
 
 # target to generate assembly for a file
 rtl_tcp/rtl_tcp_source_c.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.s
 .PHONY : rtl_tcp/rtl_tcp_source_c.cc.s
 
 sink_impl.o: sink_impl.cc.o
@@ -512,7 +485,7 @@ sink_impl.o: sink_impl.cc.o
 
 # target to build an object file
 sink_impl.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o
 .PHONY : sink_impl.cc.o
 
 sink_impl.i: sink_impl.cc.i
@@ -521,7 +494,7 @@ sink_impl.i: sink_impl.cc.i
 
 # target to preprocess a source file
 sink_impl.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.i
 .PHONY : sink_impl.cc.i
 
 sink_impl.s: sink_impl.cc.s
@@ -530,7 +503,7 @@ sink_impl.s: sink_impl.cc.s
 
 # target to generate assembly for a file
 sink_impl.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.s
 .PHONY : sink_impl.cc.s
 
 source_impl.o: source_impl.cc.o
@@ -539,7 +512,7 @@ source_impl.o: source_impl.cc.o
 
 # target to build an object file
 source_impl.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o
 .PHONY : source_impl.cc.o
 
 source_impl.i: source_impl.cc.i
@@ -548,7 +521,7 @@ source_impl.i: source_impl.cc.i
 
 # target to preprocess a source file
 source_impl.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.i
 .PHONY : source_impl.cc.i
 
 source_impl.s: source_impl.cc.s
@@ -557,7 +530,7 @@ source_impl.s: source_impl.cc.s
 
 # target to generate assembly for a file
 source_impl.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.s
 .PHONY : source_impl.cc.s
 
 time_spec.o: time_spec.cc.o
@@ -566,7 +539,7 @@ time_spec.o: time_spec.cc.o
 
 # target to build an object file
 time_spec.cc.o:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o
 .PHONY : time_spec.cc.o
 
 time_spec.i: time_spec.cc.i
@@ -575,7 +548,7 @@ time_spec.i: time_spec.cc.i
 
 # target to preprocess a source file
 time_spec.cc.i:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.i
 .PHONY : time_spec.cc.i
 
 time_spec.s: time_spec.cc.s
@@ -584,7 +557,7 @@ time_spec.s: time_spec.cc.s
 
 # target to generate assembly for a file
 time_spec.cc.s:
-	cd /home/pi/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(MAKE) -f lib/CMakeFiles/gnuradio-osmosdr.dir/build.make lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.s
 .PHONY : time_spec.cc.s
 
 # Help Target
@@ -613,9 +586,6 @@ help:
 	@echo "... file/file_source_c.o"
 	@echo "... file/file_source_c.i"
 	@echo "... file/file_source_c.s"
-	@echo "... osmosdr/osmosdr_src_c.o"
-	@echo "... osmosdr/osmosdr_src_c.i"
-	@echo "... osmosdr/osmosdr_src_c.s"
 	@echo "... plutosdr/plutosdr_source_c.o"
 	@echo "... plutosdr/plutosdr_source_c.i"
 	@echo "... plutosdr/plutosdr_source_c.s"
@@ -657,6 +627,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

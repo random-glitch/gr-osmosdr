@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o"
   "CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o"
   "CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o"
-  "CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o"
   "CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o"
   "CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o"
   "CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o"

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles /home/pi/gr-osmosdr/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-osmosdr/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/gr-iridium/build/gr-osmosdr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -246,30 +246,30 @@ _osmosdr_swig/fast:
 .PHONY : _osmosdr_swig/fast
 
 #=============================================================================
-# Target rules for targets named pygen_swig_e0819
+# Target rules for targets named pygen_swig_5f7e3
 
 # Build rule for target.
-pygen_swig_e0819: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_e0819
-.PHONY : pygen_swig_e0819
+pygen_swig_5f7e3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_5f7e3
+.PHONY : pygen_swig_5f7e3
 
 # fast build rule for target.
-pygen_swig_e0819/fast:
-	$(MAKE) -f swig/CMakeFiles/pygen_swig_e0819.dir/build.make swig/CMakeFiles/pygen_swig_e0819.dir/build
-.PHONY : pygen_swig_e0819/fast
+pygen_swig_5f7e3/fast:
+	$(MAKE) -f swig/CMakeFiles/pygen_swig_5f7e3.dir/build.make swig/CMakeFiles/pygen_swig_5f7e3.dir/build
+.PHONY : pygen_swig_5f7e3/fast
 
 #=============================================================================
-# Target rules for targets named pygen_python_565c8
+# Target rules for targets named pygen_python_79833
 
 # Build rule for target.
-pygen_python_565c8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_565c8
-.PHONY : pygen_python_565c8
+pygen_python_79833: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_79833
+.PHONY : pygen_python_79833
 
 # fast build rule for target.
-pygen_python_565c8/fast:
-	$(MAKE) -f python/CMakeFiles/pygen_python_565c8.dir/build.make python/CMakeFiles/pygen_python_565c8.dir/build
-.PHONY : pygen_python_565c8/fast
+pygen_python_79833/fast:
+	$(MAKE) -f python/CMakeFiles/pygen_python_79833.dir/build.make python/CMakeFiles/pygen_python_79833.dir/build
+.PHONY : pygen_python_79833/fast
 
 #=============================================================================
 # Target rules for targets named osmosdr_grc_xml_blocks
@@ -285,30 +285,30 @@ osmosdr_grc_xml_blocks/fast:
 .PHONY : osmosdr_grc_xml_blocks/fast
 
 #=============================================================================
-# Target rules for targets named pygen_apps_3144a
+# Target rules for targets named pygen_apps_06b28
 
 # Build rule for target.
-pygen_apps_3144a: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_apps_3144a
-.PHONY : pygen_apps_3144a
+pygen_apps_06b28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_apps_06b28
+.PHONY : pygen_apps_06b28
 
 # fast build rule for target.
-pygen_apps_3144a/fast:
-	$(MAKE) -f apps/CMakeFiles/pygen_apps_3144a.dir/build.make apps/CMakeFiles/pygen_apps_3144a.dir/build
-.PHONY : pygen_apps_3144a/fast
+pygen_apps_06b28/fast:
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_06b28.dir/build.make apps/CMakeFiles/pygen_apps_06b28.dir/build
+.PHONY : pygen_apps_06b28/fast
 
 #=============================================================================
-# Target rules for targets named pygen_apps_4c873
+# Target rules for targets named pygen_apps_8435c
 
 # Build rule for target.
-pygen_apps_4c873: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_apps_4c873
-.PHONY : pygen_apps_4c873
+pygen_apps_8435c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_apps_8435c
+.PHONY : pygen_apps_8435c
 
 # fast build rule for target.
-pygen_apps_4c873/fast:
-	$(MAKE) -f apps/CMakeFiles/pygen_apps_4c873.dir/build.make apps/CMakeFiles/pygen_apps_4c873.dir/build
-.PHONY : pygen_apps_4c873/fast
+pygen_apps_8435c/fast:
+	$(MAKE) -f apps/CMakeFiles/pygen_apps_8435c.dir/build.make apps/CMakeFiles/pygen_apps_8435c.dir/build
+.PHONY : pygen_apps_8435c/fast
 
 # Help Target
 help:
@@ -329,11 +329,11 @@ help:
 	@echo "... osmosdr_swig_swig_2d0df"
 	@echo "... osmosdr_swig_swig_doc"
 	@echo "... _osmosdr_swig"
-	@echo "... pygen_swig_e0819"
-	@echo "... pygen_python_565c8"
+	@echo "... pygen_swig_5f7e3"
+	@echo "... pygen_python_79833"
 	@echo "... osmosdr_grc_xml_blocks"
-	@echo "... pygen_apps_3144a"
-	@echo "... pygen_apps_4c873"
+	@echo "... pygen_apps_06b28"
+	@echo "... pygen_apps_8435c"
 .PHONY : help
 
 

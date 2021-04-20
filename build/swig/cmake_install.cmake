@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/swig
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/swig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr/_osmosdr_swig.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE MODULE FILES "/home/pi/gr-osmosdr/build/swig/_osmosdr_swig.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE MODULE FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/_osmosdr_swig.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr/_osmosdr_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr/_osmosdr_swig.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr/_osmosdr_swig.so"
-         OLD_RPATH "/home/pi/gr-osmosdr/build/lib:/usr/local/lib:"
+         OLD_RPATH "/home/pi/gr-iridium/build/gr-osmosdr/build/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr/_osmosdr_swig.so")
@@ -58,20 +58,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-osmosdr/build/swig/osmosdr_swig.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/osmosdr" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/build/swig/osmosdr_swig.pyc"
-    "/home/pi/gr-osmosdr/build/swig/osmosdr_swig.pyo"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.pyc"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig.pyo"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/osmosdr/swig" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/swig/osmosdr_swig.i"
-    "/home/pi/gr-osmosdr/build/swig/osmosdr_swig_doc.i"
+    "/home/pi/gr-iridium/build/gr-osmosdr/swig/osmosdr_swig.i"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/swig/osmosdr_swig_doc.i"
     )
 endif()
 

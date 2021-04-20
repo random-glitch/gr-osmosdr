@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/gr-osmosdr/grc
+# Install script for directory: /home/pi/gr-iridium/build/gr-osmosdr/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/pi/gr-osmosdr/build/grc/rtlsdr_source.xml"
-    "/home/pi/gr-osmosdr/build/grc/osmosdr_source.xml"
-    "/home/pi/gr-osmosdr/build/grc/osmosdr_sink.xml"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/grc/rtlsdr_source.xml"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/grc/osmosdr_source.xml"
+    "/home/pi/gr-iridium/build/gr-osmosdr/build/grc/osmosdr_sink.xml"
     )
 endif()
 

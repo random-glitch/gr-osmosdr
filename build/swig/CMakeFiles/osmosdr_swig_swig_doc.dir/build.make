@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/gr-osmosdr
+CMAKE_SOURCE_DIR = /home/pi/gr-iridium/build/gr-osmosdr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/gr-osmosdr/build
+CMAKE_BINARY_DIR = /home/pi/gr-iridium/build/gr-osmosdr/build
 
 # Utility rule file for osmosdr_swig_swig_doc.
 
@@ -67,10 +67,10 @@ swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build: osmosdr_swig_swig_doc
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_doc.dir/build
 
 swig/CMakeFiles/osmosdr_swig_swig_doc.dir/clean:
-	cd /home/pi/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_swig_swig_doc.dir/cmake_clean.cmake
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/osmosdr_swig_swig_doc.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_doc.dir/clean
 
 swig/CMakeFiles/osmosdr_swig_swig_doc.dir/depend:
-	cd /home/pi/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-osmosdr /home/pi/gr-osmosdr/swig /home/pi/gr-osmosdr/build /home/pi/gr-osmosdr/build/swig /home/pi/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/gr-iridium/build/gr-osmosdr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/gr-iridium/build/gr-osmosdr /home/pi/gr-iridium/build/gr-osmosdr/swig /home/pi/gr-iridium/build/gr-osmosdr/build /home/pi/gr-iridium/build/gr-osmosdr/build/swig /home/pi/gr-iridium/build/gr-osmosdr/build/swig/CMakeFiles/osmosdr_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/osmosdr_swig_swig_doc.dir/depend
 

@@ -4,21 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/gr-osmosdr/lib/device.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o"
-  "/home/pi/gr-osmosdr/lib/fcd/fcd_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/file/file_sink_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/file/file_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/osmosdr/osmosdr_src_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/osmosdr/osmosdr_src_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/ranges.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o"
-  "/home/pi/gr-osmosdr/lib/redpitaya/redpitaya_common.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o"
-  "/home/pi/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/rfspace/rfspace_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o"
-  "/home/pi/gr-osmosdr/lib/sink_impl.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o"
-  "/home/pi/gr-osmosdr/lib/source_impl.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o"
-  "/home/pi/gr-osmosdr/lib/time_spec.cc" "/home/pi/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/device.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/device.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/fcd/fcd_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/fcd/fcd_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_sink_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_sink_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/file/file_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/file/file_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/plutosdr/plutosdr_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/plutosdr/plutosdr_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/ranges.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/ranges.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_common.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_common.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_sink_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_sink_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/redpitaya/redpitaya_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/redpitaya/redpitaya_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/rfspace/rfspace_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/rfspace/rfspace_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/rtl_tcp/rtl_tcp_source_c.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/rtl_tcp/rtl_tcp_source_c.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/sink_impl.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/sink_impl.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/source_impl.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/source_impl.cc.o"
+  "/home/pi/gr-iridium/build/gr-osmosdr/lib/time_spec.cc" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/CMakeFiles/gnuradio-osmosdr.dir/time_spec.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,8 +26,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BOOST_ALL_DYN_LINK"
   "HAVE_CONFIG_H=1"
   "HAVE_FCD=1"
-  "HAVE_FCDPP=1"
-  "HAVE_IQBALANCE=1"
   "gnuradio_osmosdr_EXPORTS"
   )
 
@@ -37,7 +34,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "lib"
   "../include"
   "../lib"
-  "../lib/osmosdr"
   "../lib/fcd"
   "../lib/file"
   "../lib/rtl_tcp"
@@ -48,7 +44,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/pi/gr-osmosdr/build/lib/libgnuradio-osmosdr.so" "/home/pi/gr-osmosdr/build/lib/libgnuradio-osmosdr.so.0.1.5"
+  "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/libgnuradio-osmosdr.so" "/home/pi/gr-iridium/build/gr-osmosdr/build/lib/libgnuradio-osmosdr.so.0.1.5"
   )
 
 
